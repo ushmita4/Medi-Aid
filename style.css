@@ -1,0 +1,64 @@
+h1{
+    font-family: Noto Sans Display;
+    text-align: center;
+    color:rgb(6, 158, 247);
+    font-size: 100px;
+        }
+        h2{
+            font-family: 'Dancing Script', cursive;
+            color: red;
+            text-align: center;
+            font-size: 50px;
+        }
+        h3{
+            font-family: Noto Sans Display;
+            text-align: center;
+            color: rgb(108, 16, 230);
+            font-size: 40px;
+                }
+               
+        
+ p{
+     text-align: center;
+     font-size: 20px;
+ }       
+.topnav {
+    overflow: hidden;
+    background-color: rgb(2, 158, 248);
+    padding: 76px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(235, 109, 109);
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: white;
+    color: rgb(247, 8, 8);
+  }
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+.img-container-block {
+  text-align: center;
+}
+.img-container-inline {
+  text-align: center;
+  display: block;
+}
