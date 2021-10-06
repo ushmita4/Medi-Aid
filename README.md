@@ -1,2 +1,2 @@
 # Medi-Aid
-A website to medical needs.
+A website to assist medical needs.
