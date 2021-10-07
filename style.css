@@ -62,3 +62,11 @@ h1{
   text-align: center;
   display: block;
 }
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(6, 158, 247);
+  color: white;
+  text-align: center;
+}
