@@ -16,6 +16,22 @@ h1{
             color: rgb(108, 16, 230);
             font-size: 40px;
                 }
+                .h3services{
+                  font-family: Noto Sans Display;
+                  text-align: center;
+                  color: red;
+                  font-size: 40px;
+                      }
+                      
+                .h4services{
+                  font-family: Noto Sans Display;
+                  text-align: center;
+                  color: black;
+                  font-size: 35px;
+                      }
+                      .surrounding{
+                        background-color: yellow;
+                      }
                
         
  p{
@@ -25,8 +41,14 @@ h1{
  .paboutus{
   text-align: center;
   font-size: 20px;
-  color:red
-}         
+  color:red;
+} 
+.pservices{
+  text-align: center;
+  font-size: 40px;
+  color:blueviolet;
+  font-family: 'Dancing Script', cursive;
+}            
 .topnav {
     overflow: hidden;
     background-color: rgb(2, 158, 248);
