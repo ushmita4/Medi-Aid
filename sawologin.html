@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Medical Services in Jamshedpur">
   <meta name="keywords" content="Medicine,Personal Nursing,Laboratories,Jamshedpur,Emergencies,Doorstep Delivery,Doctor Consultation,Medi-Aid">
-    <title>Contact Us</title>
+    <title>Sawo Login</title>
     <link rel="shortcut icon" href="Pictures/Medi-Aid Logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,19 +32,24 @@
         <a href="services.html">Services</a>
         <a href="contactus.html">Contact Us</a>
     </div>
-    <h1>Contact Us</h1>
-    <p>To allow people to reach us we have tried to make our presence in some of the social media platforms.<br>Drop a message on our social media handles and we will surely reach out to you.</p>
-    <p>If you are pleased with our services do spread the word about our work. This will help Medi-Aid to grow, and we can include more services in the future as well.</p>
-    <h2>Social Media Platforms where we are present.</h2>
-    <div id="social">
-        <div id="container">
-    <a href="https://www.facebook.com/ushmita.dutta.56" class="fa fa-facebook"></a>
-<a href="https://twitter.com/UshmitaDutta_11" class="fa fa-twitter"></a>
-<a href="mailto: ushmitakhushi11092000@gmail.com" class="fa fa-google"></a>
-<a href="https://www.linkedin.com/in/ushmitadutta/" class="fa fa-linkedin"></a>
-<a href="https://www.instagram.com/ushmita_4/" class="fa fa-instagram"></a>
-</div>
-</div>
+    <div id="sawo-container" style="height: 300px; width: 300px;"></div>
+        <div id="status"></div>
+        <script src="http://websdk.sawolabs.com/sawo.min.js"></script>
+        <script>
+            var config = {
+                containerID: "sawo-container",
+                identifierType: "email", // can be either 'email' or 'phone_number_sms'
+                apiKey: "673ceeab-0981-4322-8d33-1f81c67a85ec", // add your api key here
+                onSuccess: (payload) => {
+                    window.location="./help.html"
+                },
+            };
+            var sawo = new Sawo(config);
+            sawo.showForm();
+        </script>
+    <div>
+    <a href="index.html"><h2>No, I want to return back.</h2></a>
+    </div>
     <div>
         <marquee>We at Medi-Aid strive our best to bridge the gap between you and the health services.</marquee>
     </div>
